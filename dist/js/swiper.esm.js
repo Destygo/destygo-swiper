@@ -7,7 +7,7 @@
  *
  * Released under the MIT License
  *
- * Released on: February 21, 2019
+ * Released on: February 22, 2019
  */
 
 import { $, addClass, removeClass, hasClass, toggleClass, attr, removeAttr, data, transform, transition, on, off, trigger, transitionEnd, outerWidth, outerHeight, offset, css, each, html, text, is, index, eq, append, prepend, next, nextAll, prev, prevAll, parent, parents, closest, find, children, remove, add, styles } from 'dom7/dist/dom7.modular';
@@ -2731,25 +2731,25 @@ var defaults = {
   allowSlideNext: true,
   swipeHandler: null, // '.swipe-handler',
   noSwiping: true,
-  noSwipingClass: 'swiper-no-swiping',
+  noSwipingClass: 'destygo_swiper-no-swiping',
   noSwipingSelector: null,
 
   // Passive Listeners
   passiveListeners: true,
 
   // NS
-  containerModifierClass: 'swiper-container-', // NEW
-  slideClass: 'swiper-slide',
-  slideBlankClass: 'swiper-slide-invisible-blank',
-  slideActiveClass: 'swiper-slide-active',
-  slideDuplicateActiveClass: 'swiper-slide-duplicate-active',
-  slideVisibleClass: 'swiper-slide-visible',
-  slideDuplicateClass: 'swiper-slide-duplicate',
-  slideNextClass: 'swiper-slide-next',
-  slideDuplicateNextClass: 'swiper-slide-duplicate-next',
-  slidePrevClass: 'swiper-slide-prev',
-  slideDuplicatePrevClass: 'swiper-slide-duplicate-prev',
-  wrapperClass: 'swiper-wrapper',
+  containerModifierClass: 'destygo_swiper-container-', // NEW
+  slideClass: 'destygo_swiper-slide',
+  slideBlankClass: 'destygo_swiper-slide-invisible-blank',
+  slideActiveClass: 'destygo_swiper-slide-active',
+  slideDuplicateActiveClass: 'destygo_swiper-slide-duplicate-active',
+  slideVisibleClass: 'destygo_swiper-slide-visible',
+  slideDuplicateClass: 'destygo_swiper-slide-duplicate',
+  slideNextClass: 'destygo_swiper-slide-next',
+  slideDuplicateNextClass: 'destygo_swiper-slide-duplicate-next',
+  slidePrevClass: 'destygo_swiper-slide-prev',
+  slideDuplicatePrevClass: 'destygo_swiper-slide-duplicate-prev',
+  wrapperClass: 'destygo_swiper-wrapper',
 
   // Callbacks
   runCallbacksOnInit: true,
