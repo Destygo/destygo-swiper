@@ -24,7 +24,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/nolimits4web/Swiper.git"
+    "url": "https://github.com/thisninja/Swiper.git"
   },
   "keywords": [
     "swiper",
@@ -45,9 +45,8 @@
   "author": "Vladimir Kharlampidi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nolimits4web/Swiper/issues"
+    "url": "https://github.com/thisninja/Swiper/issues"
   },
-  "homepage": "http://www.idangero.us/swiper/",
   "engines": {
     "node": ">= 4.7.0"
   },
