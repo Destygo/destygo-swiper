@@ -1,13 +1,13 @@
 /**
  * Swiper 4.4.6
  * Most modern mobile touch slider and framework with hardware accelerated transitions
- * http://www.idangero.us/swiper/
+ * undefined
  *
- * Copyright 2014-2018 Vladimir Kharlampidi
+ * Copyright 2019 thisninja
  *
  * Released under the MIT License
  *
- * Released on: December 19, 2018
+ * Released on: February 21, 2019
  */
 
 import { $, addClass, removeClass, hasClass, toggleClass, attr, removeAttr, data, transform, transition, on, off, trigger, transitionEnd, outerWidth, outerHeight, offset, css, each, html, text, is, index, eq, append, prepend, next, nextAll, prev, prevAll, parent, parents, closest, find, children, remove, add, styles } from 'dom7/dist/dom7.modular';
@@ -2503,6 +2503,7 @@ function addClasses () {
   } = swiper;
   const suffixes = [];
 
+  suffixes.push('initialized');
   suffixes.push(params.direction);
 
   if (params.freeMode) {

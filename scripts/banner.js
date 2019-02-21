@@ -12,7 +12,7 @@ module.exports = `${`
  * ${pkg.description}
  * ${pkg.homepage}
  *
- * Copyright 2014-${date.year} ${pkg.author}
+ * Copyright ${date.year} ${pkg.author}
  *
  * Released under the ${pkg.license} License
  *

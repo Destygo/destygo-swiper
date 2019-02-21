@@ -1,15 +1,15 @@
 /**
  * Swiper 4.4.6
  * Most modern mobile touch slider and framework with hardware accelerated transitions
- * http://www.idangero.us/swiper/
+ * undefined
  *
- * Copyright 2014-2018 Vladimir Kharlampidi
+ * Copyright 2019 thisninja
  *
  * Released under the MIT License
  *
- * Released on: December 19, 2018
+ * Released on: February 21, 2019
  */
-.swiper-container {
+.destygo_swiper-container {
   margin: 0 auto;
   position: relative;
   overflow: hidden;
@@ -18,17 +18,17 @@
   /* Fix of Webkit flickering */
   z-index: 1;
 }
-.swiper-container-no-flexbox .swiper-slide {
+.destygo_swiper-container-no-flexbox .destygo_swiper-slide {
   float: left;
 }
-.swiper-container-vertical > .swiper-wrapper {
+.destygo_swiper-container-vertical > .destygo_swiper-wrapper {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
 }
-.swiper-wrapper {
+.destygo_swiper-wrapper {
   position: relative;
   width: 100%;
   height: 100%;
@@ -45,23 +45,23 @@
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
 }
-.swiper-container-android .swiper-slide,
-.swiper-wrapper {
+.destygo_swiper-container-android .destygo_swiper-slide,
+.destygo_swiper-wrapper {
   -webkit-transform: translate3d(0px, 0, 0);
   transform: translate3d(0px, 0, 0);
 }
-.swiper-container-multirow > .swiper-wrapper {
+.destygo_swiper-container-multirow > .destygo_swiper-wrapper {
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
-.swiper-container-free-mode > .swiper-wrapper {
+.destygo_swiper-container-free-mode > .destygo_swiper-wrapper {
   -webkit-transition-timing-function: ease-out;
   -o-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
   margin: 0 auto;
 }
-.swiper-slide {
+.destygo_swiper-slide {
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -74,15 +74,15 @@
   transition-property: transform;
   transition-property: transform, -webkit-transform;
 }
-.swiper-slide-invisible-blank {
+.destygo_swiper-slide-invisible-blank {
   visibility: hidden;
 }
 /* Auto Height */
-.swiper-container-autoheight,
-.swiper-container-autoheight .swiper-slide {
+.destygo_swiper-container-autoheight,
+.destygo_swiper-container-autoheight .destygo_swiper-slide {
   height: auto;
 }
-.swiper-container-autoheight .swiper-wrapper {
+.destygo_swiper-container-autoheight .destygo_swiper-wrapper {
   -webkit-box-align: start;
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
@@ -94,24 +94,24 @@
   transition-property: transform, height, -webkit-transform;
 }
 /* 3D Effects */
-.swiper-container-3d {
+.destygo_swiper-container-3d {
   -webkit-perspective: 1200px;
   perspective: 1200px;
 }
-.swiper-container-3d .swiper-wrapper,
-.swiper-container-3d .swiper-slide,
-.swiper-container-3d .swiper-slide-shadow-left,
-.swiper-container-3d .swiper-slide-shadow-right,
-.swiper-container-3d .swiper-slide-shadow-top,
-.swiper-container-3d .swiper-slide-shadow-bottom,
-.swiper-container-3d .swiper-cube-shadow {
+.destygo_swiper-container-3d .destygo_swiper-wrapper,
+.destygo_swiper-container-3d .destygo_swiper-slide,
+.destygo_swiper-container-3d .destygo_swiper-slide-shadow-left,
+.destygo_swiper-container-3d .destygo_swiper-slide-shadow-right,
+.destygo_swiper-container-3d .destygo_swiper-slide-shadow-top,
+.destygo_swiper-container-3d .destygo_swiper-slide-shadow-bottom,
+.destygo_swiper-container-3d .destygo_swiper-cube-shadow {
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
-.swiper-container-3d .swiper-slide-shadow-left,
-.swiper-container-3d .swiper-slide-shadow-right,
-.swiper-container-3d .swiper-slide-shadow-top,
-.swiper-container-3d .swiper-slide-shadow-bottom {
+.destygo_swiper-container-3d .destygo_swiper-slide-shadow-left,
+.destygo_swiper-container-3d .destygo_swiper-slide-shadow-right,
+.destygo_swiper-container-3d .destygo_swiper-slide-shadow-top,
+.destygo_swiper-container-3d .destygo_swiper-slide-shadow-bottom {
   position: absolute;
   left: 0;
   top: 0;
@@ -120,38 +120,38 @@
   pointer-events: none;
   z-index: 10;
 }
-.swiper-container-3d .swiper-slide-shadow-left {
+.destygo_swiper-container-3d .destygo_swiper-slide-shadow-left {
   background-image: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0)));
   background-image: -webkit-linear-gradient(right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
   background-image: -o-linear-gradient(right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
   background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
 }
-.swiper-container-3d .swiper-slide-shadow-right {
+.destygo_swiper-container-3d .destygo_swiper-slide-shadow-right {
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0)));
   background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
   background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
 }
-.swiper-container-3d .swiper-slide-shadow-top {
+.destygo_swiper-container-3d .destygo_swiper-slide-shadow-top {
   background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0)));
   background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
   background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
 }
-.swiper-container-3d .swiper-slide-shadow-bottom {
+.destygo_swiper-container-3d .destygo_swiper-slide-shadow-bottom {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0)));
   background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
   background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
 }
 /* IE10 Windows Phone 8 Fixes */
-.swiper-container-wp8-horizontal,
-.swiper-container-wp8-horizontal > .swiper-wrapper {
+.destygo_swiper-container-wp8-horizontal,
+.destygo_swiper-container-wp8-horizontal > .destygo_swiper-wrapper {
   -ms-touch-action: pan-y;
   touch-action: pan-y;
 }
-.swiper-container-wp8-vertical,
-.swiper-container-wp8-vertical > .swiper-wrapper {
+.destygo_swiper-container-wp8-vertical,
+.destygo_swiper-container-wp8-vertical > .destygo_swiper-wrapper {
   -ms-touch-action: pan-x;
   touch-action: pan-x;
 }
