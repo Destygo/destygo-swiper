@@ -105,9 +105,9 @@ export default {
       prevEl: null,
 
       hideOnClick: false,
-      disabledClass: 'swiper-button-disabled',
-      hiddenClass: 'swiper-button-hidden',
-      lockClass: 'swiper-button-lock',
+      disabledClass: 'destygo_swiper-button-disabled',
+      hiddenClass: 'destygo_swiper-button-hidden',
+      lockClass: 'destygo_swiper-button-lock',
     },
   },
   create() {

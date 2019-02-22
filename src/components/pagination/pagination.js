@@ -255,16 +255,16 @@ export default {
       dynamicMainBullets: 1,
       formatFractionCurrent: number => number,
       formatFractionTotal: number => number,
-      bulletClass: 'swiper-pagination-bullet',
-      bulletActiveClass: 'swiper-pagination-bullet-active',
-      modifierClass: 'swiper-pagination-', // NEW
-      currentClass: 'swiper-pagination-current',
-      totalClass: 'swiper-pagination-total',
-      hiddenClass: 'swiper-pagination-hidden',
-      progressbarFillClass: 'swiper-pagination-progressbar-fill',
-      progressbarOppositeClass: 'swiper-pagination-progressbar-opposite',
-      clickableClass: 'swiper-pagination-clickable', // NEW
-      lockClass: 'swiper-pagination-lock',
+      bulletClass: 'destygo_swiper-pagination-bullet',
+      bulletActiveClass: 'destygo_swiper-pagination-bullet-active',
+      modifierClass: 'destygo_swiper-pagination-', // NEW
+      currentClass: 'destygo_swiper-pagination-current',
+      totalClass: 'destygo_swiper-pagination-total',
+      hiddenClass: 'destygo_swiper-pagination-hidden',
+      progressbarFillClass: 'destygo_swiper-pagination-progressbar-fill',
+      progressbarOppositeClass: 'destygo_swiper-pagination-progressbar-opposite',
+      clickableClass: 'destygo_swiper-pagination-clickable', // NEW
+      lockClass: 'destygo_swiper-pagination-lock',
     },
   },
   create() {
