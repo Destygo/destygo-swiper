@@ -15,33 +15,33 @@
   width: 100%;
 }
 /* Bullets */
-.swiper-pagination-bullets-dynamic {
+.destygo_swiper-pagination-bullets-dynamic {
   overflow: hidden;
   font-size: 0;
-  .swiper-pagination-bullet {
+  .destygo_swiper-pagination-bullet {
     transform: scale(0.33);
     position: relative;
   }
-  .swiper-pagination-bullet-active {
+  .destygo_swiper-pagination-bullet-active {
     transform: scale(1);
   }
-  .swiper-pagination-bullet-active-main {
+  .destygo_swiper-pagination-bullet-active-main {
     transform: scale(1);
   }
-  .swiper-pagination-bullet-active-prev {
+  .destygo_swiper-pagination-bullet-active-prev {
     transform: scale(0.66);
   }
-  .swiper-pagination-bullet-active-prev-prev {
+  .destygo_swiper-pagination-bullet-active-prev-prev {
     transform: scale(0.33);
   }
-  .swiper-pagination-bullet-active-next {
+  .destygo_swiper-pagination-bullet-active-next {
     transform: scale(0.66);
   }
-  .swiper-pagination-bullet-active-next-next {
+  .destygo_swiper-pagination-bullet-active-next-next {
     transform: scale(0.33);
   }
 }
-.swiper-pagination-bullet {
+.destygo_swiper-pagination-bullet {
   width: 8px;
   height: 8px;
   display: inline-block;
@@ -55,50 +55,50 @@
     box-shadow: none;
     appearance: none;
   }
-  .swiper-pagination-clickable & {
+  .destygo_swiper-pagination-clickable & {
     cursor: pointer;
   }
 }
-.swiper-pagination-bullet-active {
+.destygo_swiper-pagination-bullet-active {
   opacity: 1;
   background: @themeColor;
 }
 
-.swiper-container-vertical {
-  > .swiper-pagination-bullets {
+.destygo_swiper-container-vertical {
+  > .destygo_swiper-pagination-bullets {
     right: 10px;
     top: 50%;
     transform:translate3d(0px,-50%,0);
-    .swiper-pagination-bullet {
+    .destygo_swiper-pagination-bullet {
       margin: 6px 0;
       display: block;
     }
-    &.swiper-pagination-bullets-dynamic {
+    &.destygo_swiper-pagination-bullets-dynamic {
       top: 50%;
       transform: translateY(-50%);
       width: 8px;
-      .swiper-pagination-bullet {
+      .destygo_swiper-pagination-bullet {
         display: inline-block;
         transition: 200ms transform, 200ms top;
       }
     }
   }
 }
-.swiper-container-horizontal {
-  > .swiper-pagination-bullets {
+.destygo_swiper-container-horizontal {
+  > .destygo_swiper-pagination-bullets {
     .swiper-pagination-bullet {
       margin: 0 4px;
     }
-    &.swiper-pagination-bullets-dynamic {
+    &.destygo_swiper-pagination-bullets-dynamic {
       left: 50%;
       transform: translateX(-50%);
       white-space: nowrap;
-      .swiper-pagination-bullet {
+      .destygo_swiper-pagination-bullet {
         transition: 200ms transform, 200ms left;
       }
     }
   }
-  &.swiper-container-rtl > .swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+  &.destygo_swiper-container-rtl > .destygo_swiper-pagination-bullets-dynamic .destygo_swiper-pagination-bullet {
     transition: 200ms transform, 200ms right;
   }
 }
