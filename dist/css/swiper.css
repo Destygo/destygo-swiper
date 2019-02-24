@@ -267,7 +267,7 @@
   -ms-transform: scale(0.33);
   transform: scale(0.33);
 }
-.swiper-pagination-bullet {
+.destygo_swiper-pagination-bullet {
   width: 8px;
   height: 8px;
   display: inline-block;
@@ -275,7 +275,7 @@
   background: #000;
   opacity: 0.2;
 }
-button.swiper-pagination-bullet {
+button.destygo_swiper-pagination-bullet {
   border: none;
   margin: 0;
   padding: 0;
@@ -285,7 +285,7 @@ button.swiper-pagination-bullet {
   -moz-appearance: none;
   appearance: none;
 }
-.swiper-pagination-clickable .swiper-pagination-bullet {
+.destygo_swiper-pagination-clickable .destygo_swiper-pagination-bullet {
   cursor: pointer;
 }
 .swiper-pagination-bullet-active {
