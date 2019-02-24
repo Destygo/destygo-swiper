@@ -7,7 +7,7 @@
  *
  * Released under the MIT License
  *
- * Released on: February 22, 2019
+ * Released on: February 24, 2019
  */
 .destygo_swiper-container {
   margin: 0 auto;
@@ -267,7 +267,7 @@
   -ms-transform: scale(0.33);
   transform: scale(0.33);
 }
-.destygo_swiper-pagination-bullet {
+.swiper-pagination-bullet {
   width: 8px;
   height: 8px;
   display: inline-block;
@@ -275,7 +275,7 @@
   background: #000;
   opacity: 0.2;
 }
-button.destygo_swiper-pagination-bullet {
+button.swiper-pagination-bullet {
   border: none;
   margin: 0;
   padding: 0;
@@ -285,7 +285,7 @@ button.destygo_swiper-pagination-bullet {
   -moz-appearance: none;
   appearance: none;
 }
-.destygo_swiper-pagination-clickable .destygo_swiper-pagination-bullet {
+.swiper-pagination-clickable .swiper-pagination-bullet {
   cursor: pointer;
 }
 .swiper-pagination-bullet-active {
