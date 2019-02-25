@@ -23,7 +23,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/thisninja/Swiper.git"
+    "url": "https://github.com/Destygo/destygo-swiper.git"
   },
   "keywords": [
     "swiper",
@@ -41,10 +41,10 @@
     "gallery",
     "plugin"
   ],
-  "author": "thisninja",
+  "author": "Destygo Team",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/thisninja/Swiper/issues"
+    "url": "https://github.com/Destygo/destygo-swiper/issues"
   },
   "engines": {
     "node": ">= 4.7.0"

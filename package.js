@@ -1,10 +1,10 @@
 var version = '4.4.6';
 
 Package.describe({
-  name: 'thisninja:swiper',
+  name: 'destygo:swiper',
   summary: 'Swiper - mobile touch slider with hardware accelerated transitions and native behavior',
   version: version,
-  git: 'https://github.com/thisninja/Swiper'
+  git: 'https://github.com/Destygo/destygo-swiper'
 });
 
 Package.onUse(function (api) {
